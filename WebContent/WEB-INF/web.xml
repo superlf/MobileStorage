@@ -9,13 +9,14 @@
   		<param-name>mvc</param-name>
   		<param-value>mvc-servlet.xml</param-value>
   	</init-param>
+  	<load-on-startup>1</load-on-startup>
   </servlet>
   <servlet-mapping>
   	<servlet-name>SpringMVC</servlet-name>
   	<url-pattern>/</url-pattern>
   </servlet-mapping>
   
-  
+  <!-- 配置欢迎页面 -->
   <welcome-file-list>
     <welcome-file>index.jsp</welcome-file>
   </welcome-file-list>
